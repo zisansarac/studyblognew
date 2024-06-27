@@ -1,0 +1,55 @@
+/* src/components/Pomodoro.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: 'Raleway';
+
+}
+
+.pomodoro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    padding-top: 50px ;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+  
+  .timer {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .time {
+    font-size: 5rem;
+    margin-top: 3rem;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .control-icon {
+    width: 50px;
+    font-size: 4rem;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.2s;
+  }
+  
+  .control-icon:hover {
+    transform: scale(1.1);
+  }
+  
